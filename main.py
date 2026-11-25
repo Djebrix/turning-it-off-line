@@ -3,10 +3,13 @@
 
 Stdlib only, no network. Writes the line to $ENTRY_OUTPUT_DIR/entry.txt
 (default /output/entry.txt). Deterministic: same bytes on every run.
+The joke lands because the escalation promises nothing new, only slower.
 """
 
 import os
 
+# The punchline is the escalation: the "expert" only repeats the same
+# advice at a slower pace, so the fix and the failure are the same sentence.
 LINE = (
     "Let's try turning it off and on again \u2014 and if that fails, "
     "I'll escalate you to someone who'll say the exact same thing, but slower."
